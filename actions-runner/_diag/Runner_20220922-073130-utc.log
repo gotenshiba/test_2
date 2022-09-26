@@ -1,0 +1,303 @@
+[2022-09-22 07:31:30Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:31:30Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials'
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:31:30Z INFO HostContext] Well known config file 'Runner': 'C:\Users\gotensiba\Desktop\git2\actions-runner\.runner'
+[2022-09-22 07:31:30Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2022-09-22 07:31:30Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19043.
+[2022-09-22 07:31:30Z INFO Listener] Version: 2.296.2
+[2022-09-22 07:31:30Z INFO Listener] Commit: 21c30edf1e7a80e041649848ea1d91b885a8762e
+[2022-09-22 07:31:30Z INFO Listener] Culture: ja-JP
+[2022-09-22 07:31:30Z INFO Listener] UI Culture: ja-JP
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:31:30Z INFO Listener] Validating directory permissions for: 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:31:30Z INFO CommandLineParser] Parse
+[2022-09-22 07:31:30Z INFO CommandLineParser] Parsing 1 args
+[2022-09-22 07:31:30Z INFO CommandLineParser] parsing argument
+[2022-09-22 07:31:30Z INFO CommandLineParser] HasArgs: False
+[2022-09-22 07:31:30Z INFO CommandLineParser] Adding Command: run
+[2022-09-22 07:31:30Z INFO Listener] Arguments parsed
+[2022-09-22 07:31:30Z INFO Runner] ExecuteCommand
+[2022-09-22 07:31:30Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\gotensiba\Desktop\git2\actions-runner\bin\Runner.Listener.dll
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:31:30Z INFO ConfigurationStore] binPath: C:\Users\gotensiba\Desktop\git2\actions-runner\bin
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:31:30Z INFO ConfigurationStore] RootFolder: C:\Users\gotensiba\Desktop\git2\actions-runner
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:31:30Z INFO HostContext] Well known config file 'Runner': 'C:\Users\gotensiba\Desktop\git2\actions-runner\.runner'
+[2022-09-22 07:31:30Z INFO ConfigurationStore] ConfigFilePath: C:\Users\gotensiba\Desktop\git2\actions-runner\.runner
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:31:30Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials'
+[2022-09-22 07:31:30Z INFO ConfigurationStore] CredFilePath: C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:31:30Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials_migrated'
+[2022-09-22 07:31:30Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials_migrated
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:31:30Z INFO HostContext] Well known config file 'Service': 'C:\Users\gotensiba\Desktop\git2\actions-runner\.service'
+[2022-09-22 07:31:30Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\gotensiba\Desktop\git2\actions-runner\.service
+[2022-09-22 07:31:30Z INFO CommandSettings] Flag 'help': 'False'
+[2022-09-22 07:31:30Z INFO CommandSettings] Flag 'version': 'False'
+[2022-09-22 07:31:30Z INFO CommandSettings] Flag 'commit': 'False'
+[2022-09-22 07:31:30Z INFO CommandSettings] Flag 'check': 'False'
+[2022-09-22 07:31:30Z INFO CommandSettings] Command 'configure': 'False'
+[2022-09-22 07:31:30Z INFO CommandSettings] Command 'remove': 'False'
+[2022-09-22 07:31:30Z INFO CommandSettings] Command 'warmup': 'False'
+[2022-09-22 07:31:30Z INFO ConfigurationManager] LoadSettings
+[2022-09-22 07:31:30Z INFO ConfigurationStore] IsConfigured()
+[2022-09-22 07:31:30Z INFO ConfigurationStore] IsConfigured: True
+[2022-09-22 07:31:30Z INFO ConfigurationManager] Is configured: True
+[2022-09-22 07:31:30Z INFO ConfigurationStore] Read setting file: 294 chars
+[2022-09-22 07:31:30Z INFO ConfigurationManager] Settings Loaded
+[2022-09-22 07:31:30Z INFO ConfigurationStore] IsServiceConfigured()
+[2022-09-22 07:31:30Z INFO ConfigurationStore] IsServiceConfigured: False
+[2022-09-22 07:31:30Z INFO CommandSettings] Command 'run': 'True'
+[2022-09-22 07:31:30Z INFO ConfigurationStore] IsConfigured()
+[2022-09-22 07:31:30Z INFO ConfigurationStore] IsConfigured: True
+[2022-09-22 07:31:30Z INFO ConfigurationManager] Is configured: True
+[2022-09-22 07:31:30Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2022-09-22 07:31:30Z INFO Runner] Set runner startup type - Manual
+[2022-09-22 07:31:30Z INFO CommandSettings] Flag 'once': 'False'
+[2022-09-22 07:31:30Z INFO CommandSettings] Flag 'once': 'False'
+[2022-09-22 07:31:30Z INFO Runner] RunAsync
+[2022-09-22 07:31:30Z INFO ConfigurationManager] LoadSettings
+[2022-09-22 07:31:30Z INFO ConfigurationStore] IsConfigured()
+[2022-09-22 07:31:30Z INFO ConfigurationStore] IsConfigured: True
+[2022-09-22 07:31:30Z INFO ConfigurationManager] Is configured: True
+[2022-09-22 07:31:30Z INFO ConfigurationManager] Settings Loaded
+[2022-09-22 07:31:30Z INFO MessageListener] {
+  "AgentId": 21,
+  "AgentName": "test_runner",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/xYeVwuBA6gIYjFD7mHosq21Om53yBl6aUvRmcDXei8c9RblkUy",
+  "GitHubUrl": "https://github.com/gotenshiba/test_2",
+  "WorkFolder": "_work"
+}
+[2022-09-22 07:31:30Z INFO MessageListener] Loading Credentials
+[2022-09-22 07:31:30Z INFO ConfigurationStore] HasCredentials()
+[2022-09-22 07:31:30Z INFO ConfigurationStore] stored True
+[2022-09-22 07:31:30Z INFO CredentialManager] GetCredentialProvider
+[2022-09-22 07:31:30Z INFO CredentialManager] Creating type OAuth
+[2022-09-22 07:31:30Z INFO CredentialManager] Creating credential type: OAuth
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:31:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:31:30Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials_rsaparams'
+[2022-09-22 07:31:30Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials_rsaparams
+[2022-09-22 07:31:30Z INFO MessageListener] Attempt to create session.
+[2022-09-22 07:31:30Z INFO MessageListener] Connecting to the Runner Server...
+[2022-09-22 07:31:30Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2022-09-22 07:31:30Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-09-22 07:31:30Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-09-22 07:31:30Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-09-22 07:31:30Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-09-22 07:31:30Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-09-22 07:31:31Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-09-22 07:31:31Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-09-22 07:31:31Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-09-22 07:31:31Z INFO MessageListener] VssConnection created
+[2022-09-22 07:31:31Z INFO Terminal] WRITE LINE: 
+[2022-09-22 07:31:31Z INFO Terminal] WRITE LINE: 
+[2022-09-22 07:31:32Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials_rsaparams
+[2022-09-22 07:31:32Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials_rsaparams
+[2022-09-22 07:31:32Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-09-22 07:31:32Z INFO MessageListener] Session created.
+[2022-09-22 07:31:32Z INFO Terminal] WRITE LINE: Current runner version: '2.296.2'
+[2022-09-22 07:31:32Z INFO Terminal] WRITE LINE: 2022-09-22 07:31:32Z: Listening for Jobs
+[2022-09-22 07:31:32Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2022-09-22 07:31:35Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials_rsaparams
+[2022-09-22 07:31:35Z INFO MessageListener] Message '1' received from session 'c10334e2-0417-4aa7-a2de-17daef32911c'.
+[2022-09-22 07:31:35Z INFO Runner] Received job message of length 18398 from service, with hash '55d7b2c782261108def9642efd1cd5ebaa0fbe45cc27108e4f0bbb39dd2ddbea'
+[2022-09-22 07:31:35Z INFO JobDispatcher] Job request 2 for plan b0df43a0-4475-4546-8554-1be78e813e39 job 011e1ec8-6569-5e69-4f06-baf193d1351e received.
+[2022-09-22 07:31:35Z INFO JobDispatcher] Pull OrchestrationId b0df43a0-4475-4546-8554-1be78e813e39.job1.__default from JWT claims
+[2022-09-22 07:31:35Z INFO Terminal] WRITE LINE: 2022-09-22 07:31:35Z: Running job: job1
+[2022-09-22 07:31:35Z INFO JobDispatcher] Start renew job request 2 for job 011e1ec8-6569-5e69-4f06-baf193d1351e.
+[2022-09-22 07:31:36Z INFO JobDispatcher] Successfully renew job request 2, job is valid till 2022/09/22 7:41:36
+[2022-09-22 07:31:36Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:31:36Z INFO ProcessInvokerWrapper] Starting process:
+[2022-09-22 07:31:36Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin\Runner.Worker.exe'
+[2022-09-22 07:31:36Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2188 2200'
+[2022-09-22 07:31:36Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:31:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-09-22 07:31:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-09-22 07:31:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-09-22 07:31:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-09-22 07:31:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-09-22 07:31:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-09-22 07:31:36Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2022-09-22 07:31:36Z INFO ProcessInvokerWrapper] Process started with process id 3788, waiting for process exit.
+[2022-09-22 07:31:36Z INFO JobDispatcher] Send job request message to worker for job 011e1ec8-6569-5e69-4f06-baf193d1351e.
+[2022-09-22 07:31:36Z INFO ProcessChannel] Sending message of length 18398, with hash '55d7b2c782261108def9642efd1cd5ebaa0fbe45cc27108e4f0bbb39dd2ddbea'
+[2022-09-22 07:31:36Z INFO JobNotification] Entering JobStarted Notification
+[2022-09-22 07:31:36Z INFO JobNotification] Entering StartMonitor
+[2022-09-22 07:31:52Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:31:52Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:31:52Z INFO ProcessInvokerWrapper] Finished process 3788 with exit code 102, and elapsed time 00:00:15.8106295.
+[2022-09-22 07:31:52Z INFO JobDispatcher] Worker finished for job 011e1ec8-6569-5e69-4f06-baf193d1351e. Code: 102
+[2022-09-22 07:31:52Z INFO JobDispatcher] finish job request for job 011e1ec8-6569-5e69-4f06-baf193d1351e with result: Failed
+[2022-09-22 07:31:52Z INFO Terminal] WRITE LINE: 2022-09-22 07:31:52Z: Job job1 completed with result: Failed
+[2022-09-22 07:31:52Z INFO JobDispatcher] Stop renew job request for job 011e1ec8-6569-5e69-4f06-baf193d1351e.
+[2022-09-22 07:31:52Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 2.
+[2022-09-22 07:31:52Z INFO JobNotification] Entering JobCompleted Notification
+[2022-09-22 07:31:52Z INFO JobNotification] Entering EndMonitor
+[2022-09-22 07:32:28Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials_rsaparams
+[2022-09-22 07:32:28Z INFO MessageListener] Message '2' received from session 'c10334e2-0417-4aa7-a2de-17daef32911c'.
+[2022-09-22 07:32:28Z INFO Runner] Received job message of length 18034 from service, with hash 'c199a2f6098cf2fc9b75c5d2fccb93e818b6bcbc449d0bd453b84d3b57185f0b'
+[2022-09-22 07:32:28Z INFO JobDispatcher] Job request 3 for plan 1ff51823-457e-4bb7-8f68-13af38e66715 job 011e1ec8-6569-5e69-4f06-baf193d1351e received.
+[2022-09-22 07:32:28Z INFO JobDispatcher] Pull OrchestrationId 1ff51823-457e-4bb7-8f68-13af38e66715.job1.__default from JWT claims
+[2022-09-22 07:32:28Z INFO JobDispatcher] Job request 011e1ec8-6569-5e69-4f06-baf193d1351e processed succeed.
+[2022-09-22 07:32:28Z INFO Terminal] WRITE LINE: 2022-09-22 07:32:28Z: Running job: job1
+[2022-09-22 07:32:28Z INFO JobDispatcher] Start renew job request 3 for job 011e1ec8-6569-5e69-4f06-baf193d1351e.
+[2022-09-22 07:32:28Z INFO JobDispatcher] Successfully renew job request 3, job is valid till 2022/09/22 7:42:28
+[2022-09-22 07:32:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:28Z INFO ProcessInvokerWrapper] Starting process:
+[2022-09-22 07:32:28Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin\Runner.Worker.exe'
+[2022-09-22 07:32:28Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2280 2268'
+[2022-09-22 07:32:28Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:28Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-09-22 07:32:28Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-09-22 07:32:28Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-09-22 07:32:28Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-09-22 07:32:28Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-09-22 07:32:28Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-09-22 07:32:28Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2022-09-22 07:32:28Z INFO ProcessInvokerWrapper] Process started with process id 13252, waiting for process exit.
+[2022-09-22 07:32:28Z INFO JobDispatcher] Send job request message to worker for job 011e1ec8-6569-5e69-4f06-baf193d1351e.
+[2022-09-22 07:32:28Z INFO ProcessChannel] Sending message of length 18034, with hash 'c199a2f6098cf2fc9b75c5d2fccb93e818b6bcbc449d0bd453b84d3b57185f0b'
+[2022-09-22 07:32:28Z INFO JobNotification] Entering JobStarted Notification
+[2022-09-22 07:32:28Z INFO JobNotification] Entering StartMonitor
+[2022-09-22 07:32:43Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:32:43Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:32:43Z INFO ProcessInvokerWrapper] Finished process 13252 with exit code 102, and elapsed time 00:00:14.5633317.
+[2022-09-22 07:32:43Z INFO JobDispatcher] Worker finished for job 011e1ec8-6569-5e69-4f06-baf193d1351e. Code: 102
+[2022-09-22 07:32:43Z INFO JobDispatcher] finish job request for job 011e1ec8-6569-5e69-4f06-baf193d1351e with result: Failed
+[2022-09-22 07:32:43Z INFO Terminal] WRITE LINE: 2022-09-22 07:32:43Z: Job job1 completed with result: Failed
+[2022-09-22 07:32:43Z INFO JobDispatcher] Stop renew job request for job 011e1ec8-6569-5e69-4f06-baf193d1351e.
+[2022-09-22 07:32:43Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 3.
+[2022-09-22 07:32:43Z INFO JobNotification] Entering JobCompleted Notification
+[2022-09-22 07:32:43Z INFO JobNotification] Entering EndMonitor
+[2022-09-22 07:36:59Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials_rsaparams
+[2022-09-22 07:36:59Z INFO MessageListener] Message '3' received from session 'c10334e2-0417-4aa7-a2de-17daef32911c'.
+[2022-09-22 07:36:59Z INFO Runner] Received job message of length 18034 from service, with hash '65a571c7f4d2fdc452b2849b70e6ba2dfcbc178ecb68c53f54640887ddeac035'
+[2022-09-22 07:36:59Z INFO JobDispatcher] Job request 4 for plan ba321db7-ac65-4b3f-9be3-ab1c3aaf56d4 job 011e1ec8-6569-5e69-4f06-baf193d1351e received.
+[2022-09-22 07:36:59Z INFO JobDispatcher] Pull OrchestrationId ba321db7-ac65-4b3f-9be3-ab1c3aaf56d4.job1.__default from JWT claims
+[2022-09-22 07:36:59Z INFO JobDispatcher] Job request 011e1ec8-6569-5e69-4f06-baf193d1351e processed succeed.
+[2022-09-22 07:36:59Z INFO Terminal] WRITE LINE: 2022-09-22 07:36:59Z: Running job: job1
+[2022-09-22 07:36:59Z INFO JobDispatcher] Start renew job request 4 for job 011e1ec8-6569-5e69-4f06-baf193d1351e.
+[2022-09-22 07:37:00Z INFO JobDispatcher] Successfully renew job request 4, job is valid till 2022/09/22 7:47:00
+[2022-09-22 07:37:00Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:37:00Z INFO ProcessInvokerWrapper] Starting process:
+[2022-09-22 07:37:00Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin\Runner.Worker.exe'
+[2022-09-22 07:37:00Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1568 1604'
+[2022-09-22 07:37:00Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:37:00Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-09-22 07:37:00Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-09-22 07:37:00Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-09-22 07:37:00Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-09-22 07:37:00Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-09-22 07:37:00Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-09-22 07:37:00Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2022-09-22 07:37:00Z INFO ProcessInvokerWrapper] Process started with process id 14980, waiting for process exit.
+[2022-09-22 07:37:00Z INFO JobDispatcher] Send job request message to worker for job 011e1ec8-6569-5e69-4f06-baf193d1351e.
+[2022-09-22 07:37:00Z INFO ProcessChannel] Sending message of length 18034, with hash '65a571c7f4d2fdc452b2849b70e6ba2dfcbc178ecb68c53f54640887ddeac035'
+[2022-09-22 07:37:00Z INFO JobNotification] Entering JobStarted Notification
+[2022-09-22 07:37:00Z INFO JobNotification] Entering StartMonitor
+[2022-09-22 07:37:16Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:37:16Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:37:16Z INFO ProcessInvokerWrapper] Finished process 14980 with exit code 100, and elapsed time 00:00:15.7519213.
+[2022-09-22 07:37:16Z INFO JobDispatcher] Worker finished for job 011e1ec8-6569-5e69-4f06-baf193d1351e. Code: 100
+[2022-09-22 07:37:16Z INFO JobDispatcher] finish job request for job 011e1ec8-6569-5e69-4f06-baf193d1351e with result: Succeeded
+[2022-09-22 07:37:16Z INFO Terminal] WRITE LINE: 2022-09-22 07:37:16Z: Job job1 completed with result: Succeeded
+[2022-09-22 07:37:16Z INFO JobDispatcher] Stop renew job request for job 011e1ec8-6569-5e69-4f06-baf193d1351e.
+[2022-09-22 07:37:16Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 4.
+[2022-09-22 07:37:16Z INFO JobNotification] Entering JobCompleted Notification
+[2022-09-22 07:37:16Z INFO JobNotification] Entering EndMonitor
+[2022-09-22 08:07:09Z INFO MessageListener] No message retrieved from session 'c10334e2-0417-4aa7-a2de-17daef32911c' within last 30 minutes.
+[2022-09-22 08:27:16Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials_rsaparams
+[2022-09-22 08:27:16Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-09-22 08:37:19Z INFO MessageListener] No message retrieved from session 'c10334e2-0417-4aa7-a2de-17daef32911c' within last 30 minutes.
+[2022-09-22 09:07:27Z INFO MessageListener] No message retrieved from session 'c10334e2-0417-4aa7-a2de-17daef32911c' within last 30 minutes.
+[2022-09-22 09:22:32Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials_rsaparams
+[2022-09-22 09:22:32Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-09-22 09:37:36Z INFO MessageListener] No message retrieved from session 'c10334e2-0417-4aa7-a2de-17daef32911c' within last 30 minutes.
+[2022-09-22 09:47:48Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/xYeVwuBA6gIYjFD7mHosq21Om53yBl6aUvRmcDXei8c9RblkUy/_apis/distributedtask/pools/1/messages?sessionId=c10334e2-0417-4aa7-a2de-17daef32911c&lastMessageId=3&status=Online timed out after 60 seconds.
+[2022-09-22 09:47:48Z ERR  MessageListener] Catch exception during get next message.
+[2022-09-22 09:47:48Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。.
+ ---> System.Net.Sockets.SocketException (995): スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2022-09-22 09:47:48Z ERR  MessageListener] #####################################################
+[2022-09-22 09:47:48Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。.
+ ---> System.Net.Sockets.SocketException (995): スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2022-09-22 09:47:48Z ERR  MessageListener] #####################################################
+[2022-09-22 09:47:48Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。.
+ ---> System.Net.Sockets.SocketException (995): スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2022-09-22 09:47:48Z ERR  MessageListener] #####################################################
+[2022-09-22 09:47:48Z ERR  MessageListener] System.Net.Sockets.SocketException (995): スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+[2022-09-22 09:47:48Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2022-09-22 09:47:48Z ERR  Terminal] WRITE ERROR: 2022-09-22 09:47:48Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2022-09-22 09:47:48Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2022-09-22 09:47:48Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-09-22 09:47:48Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-09-22 09:47:49Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-09-22 09:47:49Z INFO MessageListener] Sleeping for 25.893 seconds before retrying.
+[2022-09-22 09:49:05Z INFO Terminal] WRITE LINE: 2022-09-22 09:49:05Z: Runner reconnected.
+[2022-09-22 10:08:21Z INFO MessageListener] No message retrieved from session 'c10334e2-0417-4aa7-a2de-17daef32911c' within last 30 minutes.
+[2022-09-22 10:17:34Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials_rsaparams
+[2022-09-22 10:17:34Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-09-22 10:38:30Z INFO MessageListener] No message retrieved from session 'c10334e2-0417-4aa7-a2de-17daef32911c' within last 30 minutes.
+[2022-09-22 11:01:30Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2022-09-22 11:01:30Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/xYeVwuBA6gIYjFD7mHosq21Om53yBl6aUvRmcDXei8c9RblkUy/_apis/distributedtask/pools/1/messages?sessionId=c10334e2-0417-4aa7-a2de-17daef32911c&lastMessageId=3&status=Online has been cancelled.
+[2022-09-22 11:01:30Z INFO MessageListener] Get next message has been cancelled.
+[2022-09-22 11:01:30Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2022-09-22 11:01:30Z INFO JobDispatcher] Ensure WorkerDispather for job 011e1ec8-6569-5e69-4f06-baf193d1351e run to finish, cancel any running job.
+[2022-09-22 11:01:30Z INFO JobDispatcher] Job request 011e1ec8-6569-5e69-4f06-baf193d1351e processed succeed.
+[2022-09-22 11:01:31Z INFO Listener] Runner execution been cancelled.

@@ -1,0 +1,2397 @@
+[2022-09-22 07:32:28Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2022-09-22 07:32:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:28Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials'
+[2022-09-22 07:32:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:28Z INFO HostContext] Well known config file 'Runner': 'C:\Users\gotensiba\Desktop\git2\actions-runner\.runner'
+[2022-09-22 07:32:28Z INFO Worker] Version: 2.296.2
+[2022-09-22 07:32:28Z INFO Worker] Commit: 21c30edf1e7a80e041649848ea1d91b885a8762e
+[2022-09-22 07:32:28Z INFO Worker] Culture: ja-JP
+[2022-09-22 07:32:28Z INFO Worker] UI Culture: ja-JP
+[2022-09-22 07:32:28Z INFO Worker] Waiting to receive the job message from the channel.
+[2022-09-22 07:32:28Z INFO ProcessChannel] Receiving message of length 18034, with hash 'c199a2f6098cf2fc9b75c5d2fccb93e818b6bcbc449d0bd453b84d3b57185f0b'
+[2022-09-22 07:32:28Z INFO Worker] Message received.
+[2022-09-22 07:32:29Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/test.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v3",
+        "repositoryType": "GitHub",
+        "path": ""
+      },
+      "contextName": "__actions_checkout",
+      "condition": "success()",
+      "id": "e63ebedf-5746-5988-1e55-e4ee41cc676d",
+      "name": "__actions_checkout"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 18,
+        "col": 15,
+        "lit": "CAT TXT"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 19,
+              "col": 14,
+              "lit": "cat test2.txt"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "750df3b4-412e-519b-9dbd-311e15fb8a32",
+      "name": "__run"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": "en-US"
+    },
+    "system.pipelineStartTime": {
+      "value": "2022-09-22 07:32:26+00:00"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "3"
+    },
+    "build.containerId": {
+      "value": "586649"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/test.yml"
+    },
+    "system.phaseDisplayName": {
+      "value": "job1"
+    },
+    "system.phaseId": {
+      "value": "d768f2aa-2c4b-5810-be30-11cbf757b796"
+    },
+    "system.phaseName": {
+      "value": "job1"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "job1.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "job1"
+    },
+    "system.jobDisplayName": {
+      "value": "job1"
+    },
+    "system.jobId": {
+      "value": "011e1ec8-6569-5e69-4f06-baf193d1351e"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Actions\":\"write\",\"Checks\":\"write\",\"Contents\":\"write\",\"Deployments\":\"write\",\"Discussions\":\"write\",\"Issues\":\"write\",\"Metadata\":\"read\",\"Packages\":\"write\",\"Pages\":\"write\",\"PullRequests\":\"write\",\"RepositoryProjects\":\"write\",\"SecurityEvents\":\"write\",\"Statuses\":\"write\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 26,
+    "planId": "1ff51823-457e-4bb7-8f68-13af38e66715",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/3",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "test_2"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "gotenshiba"
+    }
+  },
+  "timeline": {
+    "id": "1ff51823-457e-4bb7-8f68-13af38e66715",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "011e1ec8-6569-5e69-4f06-baf193d1351e",
+  "jobDisplayName": "job1",
+  "jobName": "__default",
+  "requestId": 3,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "2439ddf7-1865-4cd5-ac3c-52ce71e9f0e3",
+          "ServerName": "xYeVwuBA6gIYjFD7mHosq21Om53yBl6aUvRmcDXei8c9RblkUy",
+          "CacheServerUrl": "https://artifactcache.actions.githubusercontent.com/xYeVwuBA6gIYjFD7mHosq21Om53yBl6aUvRmcDXei8c9RblkUy/",
+          "FeedStreamUrl": "https://pipelines.actions.githubusercontent.com/xYeVwuBA6gIYjFD7mHosq21Om53yBl6aUvRmcDXei8c9RblkUy/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/1ff51823-457e-4bb7-8f68-13af38e66715/timelines/1ff51823-457e-4bb7-8f68-13af38e66715/records/011e1ec8-6569-5e69-4f06-baf193d1351e/feedstream?api-version=6.0-preview"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelines.actions.githubusercontent.com/xYeVwuBA6gIYjFD7mHosq21Om53yBl6aUvRmcDXei8c9RblkUy/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/master"
+        },
+        {
+          "k": "sha",
+          "v": "7acfe6be9b6ab885c1041b56f9ac9dd6ce3de299"
+        },
+        {
+          "k": "repository",
+          "v": "gotenshiba/test_2"
+        },
+        {
+          "k": "repository_owner",
+          "v": "gotenshiba"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "114058699"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/gotenshiba/test_2.git"
+        },
+        {
+          "k": "run_id",
+          "v": "3103609442"
+        },
+        {
+          "k": "run_number",
+          "v": "3"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "public"
+        },
+        {
+          "k": "repository_id",
+          "v": "539377608"
+        },
+        {
+          "k": "actor_id",
+          "v": "114058699"
+        },
+        {
+          "k": "actor",
+          "v": "gotenshiba"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "gotenshiba"
+        },
+        {
+          "k": "workflow",
+          "v": "testcheckrunner"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "workflow_dispatch"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "inputs",
+                "v": null
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/master"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/gotenshiba/test_2.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": "2022-09-21T08:14:05Z"
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "master"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": null
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "gotenshiba/test_2"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/gotenshiba/test_2.git"
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": true
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/gotenshiba/test_2"
+                    },
+                    {
+                      "k": "id",
+                      "v": 539377608.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": null
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "test_2"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOICY_yA"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/114058699?v=4"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/gotenshiba/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/gotenshiba/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/gotenshiba/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/gotenshiba/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/gotenshiba"
+                          },
+                          {
+                            "k": "id",
+                            "v": 114058699.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "gotenshiba"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "U_kgDOBsxlyw"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/gotenshiba/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/gotenshiba/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/gotenshiba/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/gotenshiba/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/gotenshiba/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "User"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/gotenshiba"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": "2022-09-22T07:32:18Z"
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 1.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:gotenshiba/test_2.git"
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/gotenshiba/test_2"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2022-09-21T08:14:05Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/repos/gotenshiba/test_2"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/114058699?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/gotenshiba/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/gotenshiba/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/gotenshiba/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/gotenshiba/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/gotenshiba"
+                    },
+                    {
+                      "k": "id",
+                      "v": 114058699.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "gotenshiba"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "U_kgDOBsxlyw"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/gotenshiba/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/gotenshiba/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/gotenshiba/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/gotenshiba/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/gotenshiba/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/gotenshiba"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "workflow",
+                "v": ".github/workflows/test.yml"
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "master"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        }
+      ]
+    },
+    "needs": {
+      "t": 2
+    },
+    "inputs": {
+      "t": 2
+    },
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    }
+  }
+}
+[2022-09-22 07:32:29Z INFO JobRunner] Job ID 011e1ec8-6569-5e69-4f06-baf193d1351e
+[2022-09-22 07:32:29Z INFO JobRunner] Creating job server with URL: https://pipelines.actions.githubusercontent.com/xYeVwuBA6gIYjFD7mHosq21Om53yBl6aUvRmcDXei8c9RblkUy/
+[2022-09-22 07:32:29Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\gotensiba\Desktop\git2\actions-runner\bin\Runner.Worker.dll
+[2022-09-22 07:32:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:29Z INFO ConfigurationStore] binPath: C:\Users\gotensiba\Desktop\git2\actions-runner\bin
+[2022-09-22 07:32:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:29Z INFO ConfigurationStore] RootFolder: C:\Users\gotensiba\Desktop\git2\actions-runner
+[2022-09-22 07:32:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:29Z INFO HostContext] Well known config file 'Runner': 'C:\Users\gotensiba\Desktop\git2\actions-runner\.runner'
+[2022-09-22 07:32:29Z INFO ConfigurationStore] ConfigFilePath: C:\Users\gotensiba\Desktop\git2\actions-runner\.runner
+[2022-09-22 07:32:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:29Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials'
+[2022-09-22 07:32:29Z INFO ConfigurationStore] CredFilePath: C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials
+[2022-09-22 07:32:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:29Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials_migrated'
+[2022-09-22 07:32:29Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials_migrated
+[2022-09-22 07:32:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:29Z INFO HostContext] Well known config file 'Service': 'C:\Users\gotensiba\Desktop\git2\actions-runner\.service'
+[2022-09-22 07:32:29Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\gotensiba\Desktop\git2\actions-runner\.service
+[2022-09-22 07:32:29Z INFO ConfigurationStore] Read setting file: 294 chars
+[2022-09-22 07:32:29Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-09-22 07:32:29Z INFO Worker] Listening for cancel message from the channel.
+[2022-09-22 07:32:29Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2022-09-22 07:32:30Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-09-22 07:32:30Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/xYeVwuBA6gIYjFD7mHosq21Om53yBl6aUvRmcDXei8c9RblkUy/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/1ff51823-457e-4bb7-8f68-13af38e66715/timelines/1ff51823-457e-4bb7-8f68-13af38e66715/records/011e1ec8-6569-5e69-4f06-baf193d1351e/feedstream?api-version=6.0-preview
+[2022-09-22 07:32:30Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.
+[2022-09-22 07:32:30Z INFO JobServerQueue] Start process web console line queue.
+[2022-09-22 07:32:30Z INFO JobServerQueue] Start process file upload queue.
+[2022-09-22 07:32:30Z INFO JobServerQueue] Start process timeline update queue.
+[2022-09-22 07:32:30Z INFO ExecutionContext] Initialize GitHub context
+[2022-09-22 07:32:30Z INFO ExecutionContext] Initialize Env context
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Diag': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_diag'
+[2022-09-22 07:32:30Z INFO JobRunner] Starting the job execution context.
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:30Z INFO JobRunner] Validating directory permissions for: 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Tools': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_tool'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Temp': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_temp'
+[2022-09-22 07:32:30Z INFO JobRunner] Getting job extension.
+[2022-09-22 07:32:30Z INFO JobRunner] Initialize job. Getting all job steps.
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Diag': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_diag'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:30Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\gotensiba\Desktop\git2\actions-runner\.credentials'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:30Z INFO HostContext] Well known config file 'SetupInfo': 'C:\Users\gotensiba\Desktop\git2\actions-runner\.setup_info'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:30Z INFO PipelineDirectoryManager] Loading tracking config if exists: C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_PipelineMapping\gotenshiba/test_2\PipelineFolder.json
+[2022-09-22 07:32:30Z INFO PipelineDirectoryManager] Updating job run properties.
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:30Z INFO JobExtension] Downloading actions
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Actions': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Actions': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:30Z INFO HostContext] Well known directory 'Actions': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions'
+[2022-09-22 07:32:30Z INFO ActionManager] Save archive 'https://api.github.com/repos/actions/checkout/zipball/2541b1294d2704b0964813337f33b291d3f8596b' into C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions\_temp_eaa086f4-365e-4e40-9688-bc715d42d1a1\703b73cb-7c32-4a6d-a6c3-d74d3a0aad3f.zip.
+[2022-09-22 07:32:30Z INFO JobServer] Successfully started websocket client.
+[2022-09-22 07:32:30Z INFO JobServerQueue] Try to append 1 batches web console lines for record '75180513-ddb2-4aa1-9c65-6d515c778323', success rate: 1/1.
+[2022-09-22 07:32:31Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2022-09-22 07:32:31Z INFO JobServerQueue] Try to append 1 batches web console lines for record '75180513-ddb2-4aa1-9c65-6d515c778323', success rate: 1/1.
+[2022-09-22 07:32:31Z INFO ActionManager] Finished getting action repository.
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Actions': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions'
+[2022-09-22 07:32:31Z INFO ActionManifestManager] Load schema file with definitions: [
+  "null",
+  "boolean",
+  "number",
+  "string",
+  "sequence",
+  "mapping",
+  "any",
+  "action-root",
+  "inputs",
+  "input",
+  "outputs",
+  "output-definition",
+  "runs",
+  "container-runs",
+  "container-runs-args",
+  "container-runs-env",
+  "node-runs",
+  "plugin-runs",
+  "composite-runs",
+  "composite-steps",
+  "composite-step",
+  "run-step",
+  "uses-step",
+  "container-runs-context",
+  "output-value",
+  "input-default-context",
+  "non-empty-string",
+  "string-steps-context",
+  "boolean-steps-context",
+  "step-env",
+  "step-if",
+  "step-with"
+]
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Actions': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions'
+[2022-09-22 07:32:31Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2022-09-22 07:32:31Z INFO ActionManager] Action node.js file: dist/index.js, no more preparation.
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Actions': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions'
+[2022-09-22 07:32:31Z INFO ActionManager] Load action that reference repository from 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions\actions\checkout\v3'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Actions': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions'
+[2022-09-22 07:32:31Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2022-09-22 07:32:31Z INFO ActionManager] Action pre node.js file: N/A.
+[2022-09-22 07:32:31Z INFO ActionManager] Action node.js file: dist/index.js.
+[2022-09-22 07:32:31Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2022-09-22 07:32:31Z INFO JobExtension] Adding .
+[2022-09-22 07:32:31Z INFO JobExtension] Adding .
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Diag': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_diag'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Diag': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_diag'
+[2022-09-22 07:32:31Z INFO JobExtension] Total accessible running process: 214.
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:31Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "75180513-ddb2-4aa1-9c65-6d515c778323",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 2,
+  "startTime": "2022-09-22T07:32:30.3746895Z",
+  "finishTime": "2022-09-22T07:32:31.8823917Z"
+}.
+[2022-09-22 07:32:31Z INFO JobRunner] Total job steps: 2.
+[2022-09-22 07:32:31Z INFO JobRunner] Run all job steps.
+[2022-09-22 07:32:31Z INFO StepsRunner] Processing step: DisplayName='Run actions/checkout@v3'
+[2022-09-22 07:32:31Z INFO StepsRunner] Evaluating: success()
+[2022-09-22 07:32:31Z INFO StepsRunner] Result: true
+[2022-09-22 07:32:31Z INFO StepsRunner] Starting the step.
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:31Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:31Z INFO StepsRunner] Which: 'chcp'
+[2022-09-22 07:32:31Z INFO StepsRunner] Location: 'C:\WINDOWS\system32\chcp.COM'
+[2022-09-22 07:32:31Z INFO ProcessInvokerWrapper] Starting process:
+[2022-09-22 07:32:31Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\system32\chcp.COM'
+[2022-09-22 07:32:31Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2022-09-22 07:32:31Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:31Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-09-22 07:32:31Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-09-22 07:32:31Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2022-09-22 07:32:31Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-09-22 07:32:31Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2022-09-22 07:32:31Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-09-22 07:32:31Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2022-09-22 07:32:31Z INFO ProcessInvokerWrapper] Process started with process id 17380, waiting for process exit.
+[2022-09-22 07:32:31Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:32:31Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:32:31Z INFO ProcessInvokerWrapper] Finished process 17380 with exit code 0, and elapsed time 00:00:00.0689107.
+[2022-09-22 07:32:32Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Actions': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions'
+[2022-09-22 07:32:32Z INFO ActionManager] Load action that reference repository from 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions\actions\checkout\v3'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Actions': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions'
+[2022-09-22 07:32:32Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2022-09-22 07:32:32Z INFO ActionManager] Action pre node.js file: N/A.
+[2022-09-22 07:32:32Z INFO ActionManager] Action node.js file: dist/index.js.
+[2022-09-22 07:32:32Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2022-09-22 07:32:32Z INFO ExecutionContext] Reserve record order 4 to 6 for post job actions.
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Diag': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_diag'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Temp': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_temp'
+[2022-09-22 07:32:32Z INFO ExecutionContext] Write event payload to C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_temp\_github_workflow\event.json
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Temp': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_temp'
+[2022-09-22 07:32:32Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.CreateStepSummaryCommand, Runner.Worker
+[2022-09-22 07:32:32Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "gotenshiba/test_2"
+}
+[2022-09-22 07:32:32Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2022-09-22 07:32:32Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2022-09-22 07:32:32Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2022-09-22 07:32:32Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2022-09-22 07:32:32Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2022-09-22 07:32:32Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2022-09-22 07:32:32Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2022-09-22 07:32:32Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2022-09-22 07:32:32Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 58,
+  "col": 14,
+  "lit": "1"
+}
+[2022-09-22 07:32:32Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 61,
+  "col": 14,
+  "lit": "false"
+}
+[2022-09-22 07:32:32Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2022-09-22 07:32:32Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "true"
+}
+[2022-09-22 07:32:32Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.NoticeCommandExtension, Runner.Worker
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2022-09-22 07:32:32Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2022-09-22 07:32:32Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2022-09-22 07:32:32Z INFO ActionCommandManager] Register action command extension for command set-env
+[2022-09-22 07:32:32Z INFO ActionCommandManager] Register action command extension for command set-output
+[2022-09-22 07:32:32Z INFO ActionCommandManager] Register action command extension for command save-state
+[2022-09-22 07:32:32Z INFO ActionCommandManager] Register action command extension for command add-path
+[2022-09-22 07:32:32Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2022-09-22 07:32:32Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2022-09-22 07:32:32Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2022-09-22 07:32:32Z INFO ActionCommandManager] Register action command extension for command warning
+[2022-09-22 07:32:32Z INFO ActionCommandManager] Register action command extension for command error
+[2022-09-22 07:32:32Z INFO ActionCommandManager] Register action command extension for command notice
+[2022-09-22 07:32:32Z INFO ActionCommandManager] Register action command extension for command debug
+[2022-09-22 07:32:32Z INFO ActionCommandManager] Register action command extension for command group
+[2022-09-22 07:32:32Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2022-09-22 07:32:32Z INFO ActionCommandManager] Register action command extension for command echo
+[2022-09-22 07:32:32Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e63ebedf-5746-5988-1e55-e4ee41cc676d', success rate: 1/1.
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:32Z INFO HostContext] Well known directory 'Externals': 'C:\Users\gotensiba\Desktop\git2\actions-runner\externals'
+[2022-09-22 07:32:32Z INFO ProcessInvokerWrapper] Starting process:
+[2022-09-22 07:32:32Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\gotensiba\Desktop\git2\actions-runner\externals\node16\bin\node.exe'
+[2022-09-22 07:32:32Z INFO ProcessInvokerWrapper]   Arguments: '"C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions\actions\checkout\v3\dist/index.js"'
+[2022-09-22 07:32:32Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\test_2\test_2'
+[2022-09-22 07:32:32Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-09-22 07:32:32Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2022-09-22 07:32:32Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2022-09-22 07:32:32Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-09-22 07:32:32Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2022-09-22 07:32:32Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-09-22 07:32:32Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2022-09-22 07:32:32Z INFO ProcessInvokerWrapper] Process started with process id 15540, waiting for process exit.
+[2022-09-22 07:32:32Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2022-09-22 07:32:34Z INFO AddMaskCommandExtension] Add new secret mask with length of 76
+[2022-09-22 07:32:34Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e63ebedf-5746-5988-1e55-e4ee41cc676d', success rate: 1/1.
+[2022-09-22 07:32:34Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e63ebedf-5746-5988-1e55-e4ee41cc676d', success rate: 1/1.
+[2022-09-22 07:32:34Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e63ebedf-5746-5988-1e55-e4ee41cc676d', success rate: 1/1.
+[2022-09-22 07:32:35Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e63ebedf-5746-5988-1e55-e4ee41cc676d', success rate: 1/1.
+[2022-09-22 07:32:36Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e63ebedf-5746-5988-1e55-e4ee41cc676d', success rate: 1/1.
+[2022-09-22 07:32:36Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e63ebedf-5746-5988-1e55-e4ee41cc676d', success rate: 1/1.
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] Finished process 15540 with exit code 0, and elapsed time 00:00:05.1088778.
+[2022-09-22 07:32:37Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_temp\_runner_file_commands\step_summary_ec0fa8c9-dd56-4ce4-9d9d-c93f1b75b832) is empty; skipping attachment upload
+[2022-09-22 07:32:37Z INFO StepsRunner] Step result: 
+[2022-09-22 07:32:37Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v3",
+  "type": "node16",
+  "stage": "Main",
+  "stepId": "e63ebedf-5746-5988-1e55-e4ee41cc676d",
+  "stepContextName": "__actions_checkout",
+  "hasPreStep": false,
+  "hasPostStep": true,
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 6,
+  "startTime": "2022-09-22T07:32:31.8978759Z",
+  "finishTime": "2022-09-22T07:32:37.1629148Z"
+}.
+[2022-09-22 07:32:37Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2022-09-22 07:32:37Z INFO StepsRunner] Current state: job state = ''
+[2022-09-22 07:32:37Z INFO StepsRunner] Processing step: DisplayName='CAT TXT'
+[2022-09-22 07:32:37Z INFO StepsRunner] Evaluating: success()
+[2022-09-22 07:32:37Z INFO StepsRunner] Result: true
+[2022-09-22 07:32:37Z INFO StepsRunner] Starting the step.
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:37Z INFO StepsRunner] Which: 'chcp'
+[2022-09-22 07:32:37Z INFO StepsRunner] Location: 'C:\WINDOWS\system32\chcp.COM'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] Starting process:
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\system32\chcp.COM'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] Process started with process id 16476, waiting for process exit.
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] Finished process 16476 with exit code 0, and elapsed time 00:00:00.0143412.
+[2022-09-22 07:32:37Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Temp': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_temp'
+[2022-09-22 07:32:37Z INFO ExecutionContext] Write event payload to C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_temp\_github_workflow\event.json
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Temp': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_temp'
+[2022-09-22 07:32:37Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2022-09-22 07:32:37Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command set-env
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command set-output
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command save-state
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command add-path
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command warning
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command error
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command notice
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command debug
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command group
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command echo
+[2022-09-22 07:32:37Z INFO ScriptHandler] Which: 'pwsh'
+[2022-09-22 07:32:37Z INFO ScriptHandler] pwsh: command not found. Make sure 'pwsh' is installed and its location included in the 'Path' environment variable.
+[2022-09-22 07:32:37Z INFO ScriptHandler] Defaulting to powershell
+[2022-09-22 07:32:37Z INFO ScriptHandler] Which: 'powershell'
+[2022-09-22 07:32:37Z INFO ScriptHandler] Location: 'C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Temp': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_temp'
+[2022-09-22 07:32:37Z INFO ScriptHandler] Which: 'pwsh'
+[2022-09-22 07:32:37Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e63ebedf-5746-5988-1e55-e4ee41cc676d', success rate: 1/1.
+[2022-09-22 07:32:37Z INFO JobServerQueue] Try to append 1 batches web console lines for record '750df3b4-412e-519b-9dbd-311e15fb8a32', success rate: 1/1.
+[2022-09-22 07:32:37Z INFO ScriptHandler] pwsh: command not found. Make sure 'pwsh' is installed and its location included in the 'Path' environment variable.
+[2022-09-22 07:32:37Z INFO ScriptHandler] Defaulting to powershell
+[2022-09-22 07:32:37Z INFO ScriptHandler] Which: 'powershell'
+[2022-09-22 07:32:37Z INFO ScriptHandler] Location: 'C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] Starting process:
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Arguments: '-command ". 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_temp\5ccd8827-8184-4e3d-b7c5-fd9999c78958.ps1'"'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\test_2\test_2'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] Process started with process id 16664, waiting for process exit.
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] Finished process 16664 with exit code 1, and elapsed time 00:00:00.2491982.
+[2022-09-22 07:32:37Z INFO JobServerQueue] Try to append 1 batches web console lines for record '750df3b4-412e-519b-9dbd-311e15fb8a32', success rate: 1/1.
+[2022-09-22 07:32:37Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_temp\_runner_file_commands\step_summary_05528afa-4df0-4982-8f0b-8a2a5a41ac74) is empty; skipping attachment upload
+[2022-09-22 07:32:37Z INFO StepsRunner] Step result: Failed
+[2022-09-22 07:32:37Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "powershell",
+  "type": "run",
+  "stage": "Main",
+  "stepId": "750df3b4-412e-519b-9dbd-311e15fb8a32",
+  "stepContextName": "__run",
+  "result": "failed",
+  "errorMessages": [
+    "Process completed with exit code 1."
+  ],
+  "executionTimeInSeconds": 1,
+  "startTime": "2022-09-22T07:32:37.1634592Z",
+  "finishTime": "2022-09-22T07:32:37.5137917Z"
+}.
+[2022-09-22 07:32:37Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2022-09-22 07:32:37Z INFO StepsRunner] Current state: job state = 'Failed'
+[2022-09-22 07:32:37Z INFO StepsRunner] Processing step: DisplayName='Post Run actions/checkout@v3'
+[2022-09-22 07:32:37Z INFO StepsRunner] Evaluating: always()
+[2022-09-22 07:32:37Z INFO StepsRunner] Result: true
+[2022-09-22 07:32:37Z INFO StepsRunner] Starting the step.
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:37Z INFO StepsRunner] Which: 'chcp'
+[2022-09-22 07:32:37Z INFO StepsRunner] Location: 'C:\WINDOWS\system32\chcp.COM'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] Starting process:
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\system32\chcp.COM'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] Process started with process id 15556, waiting for process exit.
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] Finished process 15556 with exit code 0, and elapsed time 00:00:00.0135948.
+[2022-09-22 07:32:37Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Actions': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions'
+[2022-09-22 07:32:37Z INFO ActionManager] Load action that reference repository from 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions\actions\checkout\v3'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Actions': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions'
+[2022-09-22 07:32:37Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2022-09-22 07:32:37Z INFO ActionManager] Action pre node.js file: N/A.
+[2022-09-22 07:32:37Z INFO ActionManager] Action node.js file: dist/index.js.
+[2022-09-22 07:32:37Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Temp': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_temp'
+[2022-09-22 07:32:37Z INFO ExecutionContext] Write event payload to C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_temp\_github_workflow\event.json
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Work': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Temp': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_temp'
+[2022-09-22 07:32:37Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2022-09-22 07:32:37Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "gotenshiba/test_2"
+}
+[2022-09-22 07:32:37Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2022-09-22 07:32:37Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2022-09-22 07:32:37Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2022-09-22 07:32:37Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2022-09-22 07:32:37Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2022-09-22 07:32:37Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2022-09-22 07:32:37Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2022-09-22 07:32:37Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2022-09-22 07:32:37Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 58,
+  "col": 14,
+  "lit": "1"
+}
+[2022-09-22 07:32:37Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 61,
+  "col": 14,
+  "lit": "false"
+}
+[2022-09-22 07:32:37Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2022-09-22 07:32:37Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "true"
+}
+[2022-09-22 07:32:37Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command set-env
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command set-output
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command save-state
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command add-path
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command warning
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command error
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command notice
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command debug
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command group
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2022-09-22 07:32:37Z INFO ActionCommandManager] Register action command extension for command echo
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:37Z INFO HostContext] Well known directory 'Externals': 'C:\Users\gotensiba\Desktop\git2\actions-runner\externals'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] Starting process:
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\gotensiba\Desktop\git2\actions-runner\externals\node16\bin\node.exe'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Arguments: '"C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_actions\actions\checkout\v3\dist/index.js"'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\gotensiba\Desktop\git2\actions-runner\_work\test_2\test_2'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2022-09-22 07:32:37Z INFO ProcessInvokerWrapper] Process started with process id 16732, waiting for process exit.
+[2022-09-22 07:32:37Z INFO JobServerQueue] Try to append 1 batches web console lines for record '750df3b4-412e-519b-9dbd-311e15fb8a32', success rate: 1/1.
+[2022-09-22 07:32:37Z INFO JobServerQueue] Try to append 1 batches web console lines for record '24b5b4c6-f35c-4e22-92f4-64493bac4461', success rate: 1/1.
+[2022-09-22 07:32:38Z INFO JobServerQueue] Try to upload 2 log files or attachments, success rate: 2/2.
+[2022-09-22 07:32:39Z INFO AddMaskCommandExtension] Add new secret mask with length of 32
+[2022-09-22 07:32:39Z INFO JobServerQueue] Try to append 1 batches web console lines for record '24b5b4c6-f35c-4e22-92f4-64493bac4461', success rate: 1/1.
+[2022-09-22 07:32:40Z INFO JobServerQueue] Try to append 1 batches web console lines for record '24b5b4c6-f35c-4e22-92f4-64493bac4461', success rate: 1/1.
+[2022-09-22 07:32:40Z INFO JobServerQueue] Try to append 1 batches web console lines for record '24b5b4c6-f35c-4e22-92f4-64493bac4461', success rate: 1/1.
+[2022-09-22 07:32:41Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:32:41Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-22 07:32:41Z INFO ProcessInvokerWrapper] Finished process 16732 with exit code 0, and elapsed time 00:00:03.6943476.
+[2022-09-22 07:32:41Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_temp\_runner_file_commands\step_summary_e3695860-b613-48a9-b076-e1ea1fa5afe3) is empty; skipping attachment upload
+[2022-09-22 07:32:41Z INFO StepsRunner] Step result: 
+[2022-09-22 07:32:41Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v3",
+  "type": "node16",
+  "stage": "Post",
+  "stepId": "24b5b4c6-f35c-4e22-92f4-64493bac4461",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 4,
+  "startTime": "2022-09-22T07:32:37.5144054Z",
+  "finishTime": "2022-09-22T07:32:41.2397957Z"
+}.
+[2022-09-22 07:32:41Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2022-09-22 07:32:41Z INFO StepsRunner] Current state: job state = 'Failed'
+[2022-09-22 07:32:41Z INFO JobRunner] Finalize job.
+[2022-09-22 07:32:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:41Z INFO HostContext] Well known directory 'Diag': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_diag'
+[2022-09-22 07:32:41Z INFO JobExtension] Initialize Env context
+[2022-09-22 07:32:41Z INFO JobExtension] Initialize steps context
+[2022-09-22 07:32:41Z INFO JobExtension] Total accessible running process: 214.
+[2022-09-22 07:32:41Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_job",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "10736fd4-054a-4b09-ad80-49b163e19bd5",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2022-09-22T07:32:41.24987Z",
+  "finishTime": "2022-09-22T07:32:41.2557353Z"
+}.
+[2022-09-22 07:32:41Z INFO JobRunner] Job result after all job steps finish: Failed
+[2022-09-22 07:32:41Z INFO JobRunner] Completing the job execution context.
+[2022-09-22 07:32:41Z INFO JobRunner] Shutting down the job server queue.
+[2022-09-22 07:32:41Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2022-09-22 07:32:41Z INFO JobServerQueue] All queue process task stopped.
+[2022-09-22 07:32:41Z INFO JobServerQueue] Try to append 1 batches web console lines for record '10736fd4-054a-4b09-ad80-49b163e19bd5', success rate: 1/1.
+[2022-09-22 07:32:41Z INFO JobServerQueue] Web console line queue drained.
+[2022-09-22 07:32:41Z INFO JobServerQueue] Uploading 3 files in one shot.
+[2022-09-22 07:32:42Z INFO JobServerQueue] Try to upload 3 log files or attachments, success rate: 3/3.
+[2022-09-22 07:32:42Z INFO JobServerQueue] File upload queue drained.
+[2022-09-22 07:32:43Z INFO JobServerQueue] Timeline update queue drained.
+[2022-09-22 07:32:43Z INFO JobServerQueue] Disposing job server ...
+[2022-09-22 07:32:43Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2022-09-22 07:32:43Z INFO TempDirectoryManager] Cleaning runner temp folder: C:\Users\gotensiba\Desktop\git2\actions-runner\_work\_temp
+[2022-09-22 07:32:43Z INFO HostContext] Well known directory 'Bin': 'C:\Users\gotensiba\Desktop\git2\actions-runner\bin'
+[2022-09-22 07:32:43Z INFO HostContext] Well known directory 'Root': 'C:\Users\gotensiba\Desktop\git2\actions-runner'
+[2022-09-22 07:32:43Z INFO HostContext] Well known directory 'Diag': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_diag'
+[2022-09-22 07:32:43Z INFO HostContext] Well known config file 'Telemetry': 'C:\Users\gotensiba\Desktop\git2\actions-runner\_diag\.telemetry'
+[2022-09-22 07:32:43Z INFO JobRunner] Raising job completed event
+[2022-09-22 07:32:43Z INFO Worker] Job completed.
