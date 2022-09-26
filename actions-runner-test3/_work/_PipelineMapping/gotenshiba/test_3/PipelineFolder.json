@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "gotenshiba/test_3",
+  "pipelineDirectory": "test_3",
+  "workspaceDirectory": "test_3\\test_3",
+  "repositories": {
+    "gotenshiba/test_3": {
+      "repositoryPath": "test_3\\test_3",
+      "lastRunOn": "09/26/2022 13:44:46 +09:00"
+    }
+  },
+  "lastRunOn": "09/26/2022 13:44:46 +09:00"
+}
